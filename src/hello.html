@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script src="http://d3js.org/d3.v3.min.js">
+
+    </script>
+</head>
+<body>
+<p>
+    This is US!
+</p>
+<script>
+    var canvas = d3.select("body")
+            .append("svg")
+            .attr("width", 600)
+            .attr("height", 600);
+
+    var circle1 = canvas.append("circle")
+            .attr("cx",250)
+            .attr("cy",250)
+            .attr("r",50)
+            .attr("fill","purple")
+    var circle2 = canvas.append("circle")
+            .attr("cx",500)
+            .attr("cy",500)
+            .attr("r",50)
+            .attr("fill","red")
+
+</script>
+</body>
+</html>
